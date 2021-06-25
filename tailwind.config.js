@@ -6,6 +6,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'nunito' :['Nunito']
+      },
+      textColor: {
+        'primary': '#63B5E3'
       }
     },
   },
