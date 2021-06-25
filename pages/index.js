@@ -7,10 +7,13 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
-      <Navbar />
+    <div className="font-nunito">
+    <Navbar />
       <Hero />
       <Services />
       <Footer />
+    </div>
+     
     </>
   );
 }
