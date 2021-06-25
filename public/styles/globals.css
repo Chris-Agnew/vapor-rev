@@ -624,6 +624,10 @@ video {
   display: flex;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
@@ -633,7 +637,21 @@ video {
   padding-left: 0.5rem;
 }
 
-.text-blue-700 {
+.font-nunito {
+  font-family: Nunito;
+}
+
+.text-primary {
   --tw-text-opacity: 1;
-  color: rgba(29, 78, 216, var(--tw-text-opacity));
+  color: rgba(99, 181, 227, var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
 }
