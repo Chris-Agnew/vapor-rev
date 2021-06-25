@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-   <div className="flex bg-black space-between">
-   <div>
+   <div className="flex justify-center bg-black space-between">
+   <div className="md:flex md:justify-center md:align-center">
       <Image
         src="https://www.chris-agnew.com/logo.webp"
         height={150}
@@ -12,17 +12,17 @@ const Navbar = () => {
         alt="Vapor Rev Logo"
       />
     </div>
-    <div className='flex m-12 text-blue-700 space-between'>
+    <div className='justify-center hidden m-12 md:flex text-primary align-center md:w-full md:justify-end '>
       <Link href='#Services'>
-      <a className='pl-2'>Services</a>
+      <a className='m-3 hover:text-white hover:border-b-2'>Services</a>
       </Link>
       <Link href='#about'>
-      <a className='pl-2'>About Us</a>         
+      <a className='m-3 hover:text-white hover:border-b-2'>About Us</a>         
       </Link>
       <Link href='/contact'>
-      <a className='pl-2'>Contact</a>
+      <a className='m-3 hover:text-white hover:border-b-2'>Contact</a>
       </Link>
-    </div>
+      </div>
     </div>
   );
 };
