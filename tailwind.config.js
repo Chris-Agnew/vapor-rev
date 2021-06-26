@@ -8,7 +8,12 @@ module.exports = {
         'nunito' :['Nunito']
       },
       textColor: {
-        'primary': '#63B5E3'
+        'light-blue': '#0A9DFF',
+        'dark-blue': '#0A9DFF',
+        'coral-red': '#E63946',
+        'teal': '#0E7C7B',
+
+        
       }
     },
   },

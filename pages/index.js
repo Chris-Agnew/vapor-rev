@@ -6,14 +6,11 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <>
     <div className="font-nunito">
-    <Navbar />
+      <Navbar />
       <Hero />
       <Services />
       <Footer />
     </div>
-     
-    </>
   );
 }
