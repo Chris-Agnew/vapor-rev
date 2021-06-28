@@ -26,7 +26,7 @@ const Hero = () => {
           <h1 className="z-10 mt-5 mb-4 text-xl text-center text-gray-200 md:text-3xl">
             Vapor Rev is a vape shop in Willoughby.
           </h1>
-          <p className="z-10 text-sm text-center text-gray-200 md:text-3xl">
+          <p className="z-10 text-sm text-center text-gray-200 md:text-2xl md:m-5">
             We are open and have returned to our normal scheduled store hours.
             If you would like to place a pickup order, please fill out the form
             below or click the button to call us.
