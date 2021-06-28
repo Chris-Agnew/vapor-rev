@@ -2,15 +2,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      <div className="relative w-screen h-full md:w-full md:h-1/2">
-        {/* <div>
-          <Image
-            src={Background}
-            height={300}
-            width={300}
-            layout="responsive"
-          />
-        </div> */}
+      <div className="relative w-screen h-full bg-black md:w-full md:h-1/2">
 
         {/* <div className="absolute top-0 z-10 w-screen h-full md:h-full md:w-full md:flex md:flex-col md:justify-center align-center md:mx-auto">
           <Image
@@ -21,17 +13,19 @@ const Hero = () => {
             width={300}
           />
         </div> */}
-     
-          <Image 
+     <div className="">
+     <Image 
           src="https://www.chris-agnew.com/vape-shop-dark.jpg"
           layout="responsive"
+          alt="Vapor Rev Willoughby Ohio Shop"
           height={400}
           width={500}
-          alt="Vapor Rev Willoughby Ohio Shop"
         />
+     </div>
+          
     
         
-        <div className="absolute top-0 z-50 flex flex-col justify-center w-3/4 h-full p-6 left-10 md:left-20 md:p-3 align-center">
+        <div className="absolute top-0 z-50 flex flex-col justify-center w-3/4 h-full p-6 left-10 md:left-40 md:p-3 align-center">
           <h1 className="z-10 mt-5 mb-4 text-lg text-center text-gray-100 md:text-3xl">
             Vapor Rev is a vape shop in Willoughby.
           </h1>
