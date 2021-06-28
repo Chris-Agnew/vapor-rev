@@ -23,7 +23,7 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-   <div id="contact" className="flex items-center justify-center bg-black">
+   <div id="contact" className="flex items-center justify-center bg-dark-blue">
    <div className="w-full mt-1 rounded md:mt-0 md:w-1/4 bg-dark-blue">
    <form onSubmit={handleSubmit}>
       <div className="flex items-center justify-center m-5">
