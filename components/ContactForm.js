@@ -23,21 +23,29 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
+   <div className="flex items-center justify-center bg-black">
+   <div className="bg-light-blue">
+   <form onSubmit={handleSubmit}>
+      <div className="m-5 ">
         <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+        <input type="text" id="name" placeholder="John Smith" className="p-2 ml-5 rounded-full" required />
       </div>
-      <div>
+      <div className="m-5">
         <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
+        <input type="email" id="email" placeholder="john@smith.com" className="p-2 ml-5 text-left rounded-full radius" required />
       </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
+      <div className="p-5 ">
+        <div><label htmlFor="message">Message:</label></div>
+        <textarea placeholder="Type your message here" id="message" required className="h-32 p-2 mt-5 ml-5 border-2 rounded"/>
       </div>
-      <button type="submit">{status}</button>
+      <div className="flex items-center justify-center">
+      <button className="p-1 m-5 border-2 rounded-full outline-none border-dark-blue hover:bg-dark-blue hover:text-white" type="submit">{status}</button>
+      </div>
+      
     </form>
+   </div>
+  
+    </div>
   );
 };
 
