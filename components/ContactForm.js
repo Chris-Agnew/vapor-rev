@@ -24,7 +24,7 @@ const ContactForm = () => {
   };
   return (
    <div id="contact" className="flex items-center justify-center bg-black">
-   <div className="w-full mt-1 rounded md:w-1/4 bg-dark-blue">
+   <div className="w-full mt-1 rounded md:mt-0 md:w-1/4 bg-dark-blue">
    <form onSubmit={handleSubmit}>
       <div className="flex items-center justify-center m-5">
         <label htmlFor="name" className="text-xl text-gray-200">Name:</label>
