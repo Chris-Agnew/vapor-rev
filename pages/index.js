@@ -9,13 +9,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Vapor Rev | Vape shop in Willougby, Ohio</title>
+        <title>Vapor Rev | Vape shop in Willoughby, Ohio</title>
         <meta
           name="viewport"
           content="initial-scale=1.0, width=device-width"
-          keywords="Vape,shop,willoughby, ohio,vapor,rev"
+          
         />
-        <meta name="description" content="Vapor Rev is a vape shop in Willougby Ohio. Vapor Rev is a one stop shop for everything vape related. Stop in today!"/>
+        <meta name="description" content="Vapor Rev is a vape shop in Willougby Ohio. Vapor Rev is a one stop shop for everything vape related. Stop in today!" keywords="Vape,shop,willoughby, ohio,vapor,rev"/>
       </Head>
       <div className="w-full h-full font-nunito">
         <Navbar />
