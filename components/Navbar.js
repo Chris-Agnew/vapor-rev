@@ -4,7 +4,7 @@ import {FaFacebookSquare, FaInstagramSquare, FaSpotify} from 'react-icons/fa'
 
 const Navbar = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-full bg-black md:flex-row ">
+    <div className="flex flex-col items-center justify-center w-full h-full p-5 bg-black md:flex-row">
       <div className="flex items-center justify-center h-full md:w-1/3 ">
         <Link href="/">
           <a>
