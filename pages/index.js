@@ -13,9 +13,9 @@ export default function Home() {
         <meta
           name="viewport"
           content="initial-scale=1.0, width=device-width"
-          description="Vapor Rev is a vape shop in Willougby Ohio. Vapor Rev is a one stop shop for everything vape related. Stop in today!"
           keywords="Vape,shop,willoughby, ohio,vapor,rev"
         />
+        <meta name="description" content="Vapor Rev is a vape shop in Willougby Ohio. Vapor Rev is a one stop shop for everything vape related. Stop in today!"/>
       </Head>
       <div className="w-full h-full font-nunito">
         <Navbar />
