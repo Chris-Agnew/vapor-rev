@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Background from "../public/images/Speedline-100s-1720px.svg";
 const Hero = () => {
   return (
     <>
