@@ -23,7 +23,7 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-   <div id="contact" className="flex items-center justify-center bg-dark-blue">
+   <div id="contact" className="flex items-center justify-center h-full bg-dark-blue">
    <div className="mt-1 rounded md:mt-0 bg-dark-blue">
    <form  onSubmit={handleSubmit}>
       <div className="flex items-center justify-center m-5">
@@ -36,7 +36,7 @@ const ContactForm = () => {
       </div>
       <div className="flex items-center justify-center w-full h-full p-0">
         <div><label htmlFor="message" className="text-xl text-gray-200">Message:</label></div>
-        <textarea placeholder="Type your message here" id="message" required className="p-2 mt-5 ml-5 bg-gray-300 border-2 rounded outline-none "/>
+        <textarea placeholder="Type your message here" id="message" required className="p-2 mt-5 ml-2 bg-gray-300 border-2 rounded outline-none "/>
       </div>
       <div className="flex items-center justify-center ">
       <button className="w-40 p-1 m-5 text-gray-200 border-2 border-black rounded-full outline-none hover:bg-light-blue hover:text-white " type="submit">{status}</button>
