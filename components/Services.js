@@ -30,8 +30,8 @@ const Services = () => {
         </p>
       </div>
       <div className="flex flex-col justify-center text-gray-200 bg-black lg:w-1/3">
-        <h1 className="p-3 mt-2 text-2xl text-center">Our Vision</h1>
-        <p className="pt-3 m-5 text-sm">
+        <h1 className="p-3 mt-2 text-2xl text-center lg:mt-0">Our Vision</h1>
+        <p className="p-5 text-sm  lg:m-0">
           We are continuously evolving with the market to provide our customers
           with the latest and greatest products available. Our standard for only
           the highest quality is a never-ending process that we take pride in.
