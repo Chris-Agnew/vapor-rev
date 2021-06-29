@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="flex justify-center mb-10 align-center">
             <button
               type="button"
-              className="p-2 mt-2 text-sm text-gray-200 rounded-lg bg-light-blue hover:bg-dark-blue sm:text-base"
+              className="p-3 mt-2 text-sm text-gray-900 rounded-lg bg-light-blue hover:text-gray-200 hover:bg-dark-blue sm:text-base"
             >
               <a href="tel:4405714341">Call us at: 440.571.4341</a>
             </button>
