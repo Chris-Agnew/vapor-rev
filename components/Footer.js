@@ -24,12 +24,10 @@ const Footer = () => {
         </h3>
       </div>
       <div className="flex flex-col items-center justify-center w-1/2 p-5 text-white bg-black ">
-        <h1 className="text-lg">
-          {" "}
+        <h1 className="text-lg text-center">
           Vapor Rev LLC <span>&copy; 2021</span>
         </h1>
         <p className="text-center text-s">
-          {" "}
           38669 MENTOR AVE UNIT B. WILLOUGHBY, OH, 44094
         </p>
       </div>
