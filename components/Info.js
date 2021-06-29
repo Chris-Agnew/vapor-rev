@@ -10,7 +10,7 @@ const Info = () => {
       <div className="lg:w-1/3">
         <ContactForm />
       </div>
-      <div className="flex items-center justify-center text-gray-200 lg:w-1/3">
+      <div className="flex items-center justify-center p-10 text-gray-200 lg:w-1/3">
         <div className="flex flex-col items-center justify-center ">
           <h1 className="text-center">Hours of Operation:</h1>
           <ul className="text-center">
