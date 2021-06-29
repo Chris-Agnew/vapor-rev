@@ -1,7 +1,7 @@
 const Services = () => {
   return (
     <div id="services" className="flex flex-col h-full md:flex-row">
-      <div className="flex flex-col items-center justify-center p-5 text-gray-200 bg-black md:p-20 md:w-1/3">
+      <div className="flex flex-col items-center justify-center p-5 text-gray-200 bg-black md:p-20 lg:w-1/3">
         <div className="flex flex-col items-center justify-center">
           <h1 className="mb-5 text-2xl">Services:</h1>
           <ul className="text-lg list-disc ">
@@ -17,7 +17,7 @@ const Services = () => {
       </div>
       <div
         id="about"
-        className="flex flex-col justify-center bg-gray-200 md:w-1/3 "
+        className="flex flex-col justify-center bg-gray-200 lg:w-1/3 "
       >
         <h1 className="pt-3 m-2 text-2xl text-center"> About Vapor Rev</h1>
         <p className="m-5 text-sm ">
@@ -29,7 +29,7 @@ const Services = () => {
           we have just what you are looking for!
         </p>
       </div>
-      <div className="flex flex-col justify-center text-gray-200 bg-black md:w-1/3">
+      <div className="flex flex-col justify-center text-gray-200 bg-black lg:w-1/3">
         <h1 className="p-3 mt-2 text-2xl text-center">Our Vision</h1>
         <p className="pt-3 m-5 text-sm">
           We are continuously evolving with the market to provide our customers
