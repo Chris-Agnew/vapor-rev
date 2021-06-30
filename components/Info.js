@@ -1,5 +1,4 @@
 import Map from "./Map";
-import ContactForm from "./ContactForm";
 
 const Info = () => {
   return (
@@ -7,9 +6,6 @@ const Info = () => {
       <div className="flex items-center justify-center lg:w-1/2">
         <Map />
       </div>
-      {/* <div className="lg:w-1/3">
-        <ContactForm />
-      </div> */}
       <div className="flex flex-col items-center justify-center p-10 text-gray-200 lg:w-1/2">
         <div className="flex flex-col items-center justify-center ">
           <h1 className="text-center lg:text-3xl">Hours of Operation:</h1>
