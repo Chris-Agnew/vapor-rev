@@ -8,9 +8,9 @@ const Services = () => {
             <li>Starter Kits</li>
             <li>Coils</li>
             <li>Top Shelf E-Liquid</li>
-            <li>Accessories</li>
-            <li>RDAs</li>
-            <li>Batteries</li>
+            <li>Disposables</li>
+            <li>Pod Systems</li>
+            <li>and more...</li>
           </ul>
         </div>
       </div>
@@ -34,9 +34,7 @@ const Services = () => {
           We are continuously evolving with the market to provide our customers
           with the latest and greatest products available. Our standard for only
           the highest quality is a never-ending process that we take pride in.
-          Featuring name brands like Joyetech, Sigelei, Innokin, Aspire, Lotus,
-          Kangertech, SMOK and many more! Your journey for the perfect vape ends
-          here!
+          Your journey for the perfect vape ends here!
         </p>
       </div>
     </div>
