@@ -28,6 +28,19 @@ export default function Home() {
         <Services />
         <Info />
         <Footer />
+
+        <script
+          id="AgeVerifyScript"
+          data-template="Vaping 3"
+          data-textprompt=""
+          data-fontsize="24"
+          data-method="Age Button Prompt"
+          data-entertext="Yes"
+          data-exittext="No"
+          data-bfontsize="20"
+          data-remembertext="Remember Me"
+          src="https://av.ageverify.co/jsv9/av9.1.js"
+        ></script>
       </div>
     </>
   );
