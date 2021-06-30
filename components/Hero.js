@@ -28,8 +28,8 @@ const Hero = () => {
           </h1>
           <p className="z-10 text-sm text-center text-gray-200 md:text-2xl md:m-5">
             We are open and have returned to our normal scheduled store hours.
-            If you would like to place a pickup order, please fill out the form
-            below or click the button to call us.
+            If you would like to place a pickup order or have any questions
+            please click the button to call us below.
           </p>
           <div className="flex justify-center mb-10 align-center">
             <button
