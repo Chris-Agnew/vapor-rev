@@ -15,7 +15,7 @@ const Info = () => {
           </ul>
         </div>
         <div className="flex flex-col items-center justify-center mt-10">
-          <h2 className="text-center md:text-2xl">440-571-4341</h2>
+          <h2 className="text-center lg:text-2xl">440-571-4341</h2>
           <h3 className="pt-2 text-center lg:text-2xl">
             38669 MENTOR AVE UNIT B. WILLOUGHBY, OH, 44094
           </h3>
