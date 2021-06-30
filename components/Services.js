@@ -9,7 +9,6 @@ const Services = () => {
             <li>Coils</li>
             <li>Top Shelf E-Liquid</li>
             <li>Accessories</li>
-            <li>CBD</li>
             <li>RDAs</li>
             <li>Batteries</li>
           </ul>
@@ -31,7 +30,7 @@ const Services = () => {
       </div>
       <div className="flex flex-col justify-center text-gray-200 bg-black lg:w-1/3">
         <h1 className="p-3 mt-2 text-2xl text-center lg:mt-0">Our Vision</h1>
-        <p className="p-5 text-sm  lg:m-0">
+        <p className="p-5 text-sm lg:m-0">
           We are continuously evolving with the market to provide our customers
           with the latest and greatest products available. Our standard for only
           the highest quality is a never-ending process that we take pride in.
