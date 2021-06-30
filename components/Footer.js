@@ -27,9 +27,6 @@ const Footer = () => {
         <h1 className="text-lg text-center">
           Vapor Rev LLC <span>&copy; 2021</span>
         </h1>
-        <p className="text-center text-s">
-          38669 MENTOR AVE UNIT B. WILLOUGHBY, OH, 44094
-        </p>
       </div>
     </div>
   );
