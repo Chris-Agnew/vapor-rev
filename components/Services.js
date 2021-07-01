@@ -19,7 +19,7 @@ const Services = () => {
         className="flex flex-col justify-center bg-gray-200 lg:w-1/3 "
       >
         <h1 className="pt-3 m-2 text-2xl text-center"> About Vapor Rev</h1>
-        <p className="m-5 text-sm ">
+        <p className="p-5 m-5 text-sm ">
           Welcome to VAPOR REV! We are your one stop shop in Willoughby, Ohio
           for every thing electronic cigarettes! We strive for perfection at
           bringing you the best customer service in town. With over 10 years
@@ -30,7 +30,7 @@ const Services = () => {
       </div>
       <div className="flex flex-col justify-center text-gray-200 bg-black lg:w-1/3">
         <h1 className="p-3 mt-2 text-2xl text-center lg:mt-0">Our Vision</h1>
-        <p className="p-5 text-sm lg:m-0">
+        <p className="p-10 text-sm lg:m-0">
           We are continuously evolving with the market to provide our customers
           with the latest and greatest products available. Our standard for only
           the highest quality is a never-ending process that we take pride in.
