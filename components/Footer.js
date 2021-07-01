@@ -24,7 +24,7 @@ const Footer = () => {
         </h3>
       </div>
       <div className="flex flex-col items-center justify-center w-1/2 p-5 text-white bg-black ">
-        <h1 className="text-lg text-center">
+        <h1 className="text-sm text-center">
           Vapor Rev LLC <span>&copy; 2021</span>
         </h1>
       </div>
