@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import {FaFacebookSquare, FaInstagramSquare, FaSpotify} from 'react-icons/fa'
+import { FaFacebookSquare, FaInstagramSquare, FaSpotify } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -9,28 +9,39 @@ const Navbar = () => {
         <Link href="/">
           <a>
             <Image
-              src="https://www.chris-agnew.com/logo.webp"
+              src="/images/vapor-rev-logo.webp"
               height={100}
               width={200}
               alt="Vapor Rev Logo"
-            
             />
           </a>
         </Link>
-       <div className="m-4 text-xs text-center text-gray-200 w-30">
-       <p>38669 MENTOR AVE UNIT B. WILLOUGHBY, OH</p>
+        <div className="m-4 text-xs text-center text-gray-200 w-30">
+          <p>38669 MENTOR AVE UNIT B. WILLOUGHBY, OH</p>
+        </div>
+      </div>
 
-       </div>
-        
-    
-      </div>
-     
       <div className="flex items-center justify-center w-1/3 mt-5 mb-5 text-4xl text-center bg-black space-around text-light-blue">
-        <h3 className="mr-3 hover:text-dark-blue"><a href="https://www.facebook.com/vaporrevohio" target="_blank"><FaFacebookSquare /> </a></h3>
-        <h3 className="mr-3 hover:text-dark-blue"><a href="https://www.instagram.com/vapor_rev/" target="_blank"><FaInstagramSquare/> </a> </h3>
-        <h3 className=" hover:text-dark-blue"><a href="https://open.spotify.com/playlist/1dyH8tgajIVj9KF2wv8U2l" target="_blank"><FaSpotify/> </a></h3>
+        <h3 className="mr-3 hover:text-dark-blue">
+          <a href="https://www.facebook.com/vaporrevohio" target="_blank">
+            <FaFacebookSquare />{" "}
+          </a>
+        </h3>
+        <h3 className="mr-3 hover:text-dark-blue">
+          <a href="https://www.instagram.com/vapor_rev/" target="_blank">
+            <FaInstagramSquare />{" "}
+          </a>{" "}
+        </h3>
+        <h3 className=" hover:text-dark-blue">
+          <a
+            href="https://open.spotify.com/playlist/1dyH8tgajIVj9KF2wv8U2l"
+            target="_blank"
+          >
+            <FaSpotify />{" "}
+          </a>
+        </h3>
       </div>
-    
+
       <div className="items-center hidden md:justify-center text-light-blue md:flex lg:justify-start md:w-1/3">
         <Link href="#services">
           <a className="m-3 border-dark-blue hover:border-dark-blue hover:border-b-2">
