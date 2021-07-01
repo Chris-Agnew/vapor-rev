@@ -15,10 +15,6 @@ export default function Home() {
           content="Vapor Rev is a vape shop in Willougby Ohio. Vapor Rev is a one stop shop for everything vape related. Stop in today!"
           keywords="Vape,shop,willoughby, ohio,vapor,rev"
         />
-        <meta
-          property="og:image"
-          content="https://www.chris-agnew.com/logo.webp"
-        />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <title>Vapor Rev | Vape shop in Willoughby, Ohio</title>
       </Head>
