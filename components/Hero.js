@@ -12,14 +12,14 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute top-0 z-10 items-center w-screen h-full text-white md:h-full md:w-full md:flex md:flex-col md:justify-center md:mx-auto "></div>
+        <div className="absolute top-0 z-10 items-center text-white md:flex md:flex-col md:justify-center md:mx-auto "></div>
         <div>
           <Image
-            src="/images/dark-final.jpg"
+            src="https://www.chrisagnew.codes/dark-final.webp"
             layout="responsive"
             alt="Vapor Rev Willoughby Ohio Shop"
-            height={400}
-            width={500}
+            height={200}
+            width={250}
           />
         </div>
         <div className="absolute z-50 flex flex-col items-center justify-center w-3/4 h-full p-6 top-10 left-10 md:left-32 md:p-3 ">
