@@ -25,6 +25,7 @@ export default function Home() {
         <Info />
         <Footer />
 
+        <script src="https://www.w3counter.com/tracker.js?id=138271"></script>
         <script
           id="AgeVerifyScript"
           data-template="Vaping 3"
