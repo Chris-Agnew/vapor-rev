@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { FaFacebookSquare, FaInstagramSquare, FaSpotify } from "react-icons/fa";
 
@@ -8,11 +7,10 @@ const Navbar = () => {
       <div className="flex flex-col items-center justify-center h-full md:w-1/3 ">
         <Link href="/">
           <a>
-            <Image
+            <img
               src="/images/vapor-rev-logo.webp"
-              height={100}
-              width={200}
               alt="Vapor Rev Logo"
+              className="lg:w-72"
             />
           </a>
         </Link>
