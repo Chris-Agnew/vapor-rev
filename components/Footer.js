@@ -23,10 +23,11 @@ const Footer = () => {
           </a>
         </h3>
       </div>
-      <div className="flex flex-col items-center justify-center w-1/2 p-10 text-white bg-black ">
-        <h1 className="text-sm text-center">
-          Vapor Rev LLC <span>&copy; 2021</span>
-        </h1>
+      <div className="flex flex-col items-center justify-center w-1/2 p-10 text-gray-200 bg-black ">
+        <h1 className="text-xs text-center">Vapor Rev LLC &copy; 2021</h1>
+        {/* <h2 className="text-xs text-center text-gray-700">
+          Created by: <a href="http://chrisagnew.codes">Chris Agnew LLC</a>
+        </h2> */}
       </div>
     </div>
   );
