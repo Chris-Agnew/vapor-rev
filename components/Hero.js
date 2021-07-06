@@ -1,4 +1,3 @@
-import Image from "next/image";
 const Hero = () => {
   return (
     <>
@@ -14,12 +13,10 @@ const Hero = () => {
 
         <div className="absolute top-0 z-10 items-center text-white md:flex md:flex-col md:justify-center md:mx-auto "></div>
         <div>
-          <Image
+          <img
             src="https://www.chrisagnew.codes/dark-final.webp"
-            layout="responsive"
-            alt="Vapor Rev Willoughby Ohio Shop"
-            height={200}
-            width={250}
+            alt="Vapor Rev Shop photo"
+            className="w-screen h-96 md:h-full"
           />
         </div>
         <div className="absolute z-50 flex flex-col items-center justify-center w-3/4 h-full p-6 top-10 left-10 md:left-32 md:p-3 ">
