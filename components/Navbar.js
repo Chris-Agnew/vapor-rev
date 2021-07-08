@@ -8,7 +8,7 @@ const Navbar = () => {
         <Link href="/">
           <a>
             <img
-              src="/images/vapor-rev-logo.webp"
+              src="./images/vapor-rev-logo.webp"
               alt="Vapor Rev Logo"
               className="lg:w-72"
             />
