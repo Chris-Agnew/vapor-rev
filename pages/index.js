@@ -16,6 +16,22 @@ export default function Home() {
           keywords="Vape,shop,willoughby, ohio,vapor,rev"
         />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-9QCVZ0PNMB"
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-9QCVZ0PNMB', { page_path: window.location.pathname });
+            `,
+          }}
+        />
         <title>Vapor Rev | Vape shop in Willoughby, Ohio</title>
       </Head>
       <div className="w-full h-full font-nunito">
