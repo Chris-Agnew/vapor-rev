@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Info from "../components/Info";
 import Footer from "../components/Footer";
+import { GA_TRACKING_ID } from "../lib/ga/gtag";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-9QCVZ0PNMB"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
         />
 
         <script
@@ -28,7 +29,7 @@ export default function Home() {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-9QCVZ0PNMB', { page_path: window.location.pathname });
+              gtag('config', ${GA_TRACKING_ID}, { page_path: window.location.pathname });
             `,
           }}
         />
@@ -41,7 +42,6 @@ export default function Home() {
         <Info />
         <Footer />
 
-        <script src="https://www.w3counter.com/tracker.js?id=138271"></script>
         <script
           id="AgeVerifyScript"
           data-template="Vaping 3"
