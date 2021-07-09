@@ -2,7 +2,10 @@ import Map from "./Map";
 
 const Info = () => {
   return (
-    <div className="flex flex-col bg-gray-900 justify-evenly lg:flex-row ">
+    <div
+      id="contact"
+      className="flex flex-col bg-gray-900 justify-evenly lg:flex-row "
+    >
       <div className="flex items-center justify-center lg:w-1/2">
         <Map />
       </div>
