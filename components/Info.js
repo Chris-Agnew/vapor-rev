@@ -11,7 +11,7 @@ const Info = () => {
       </div>
       <div className="flex flex-col items-center justify-center p-10 text-gray-200 lg:w-1/2">
         <div className="flex flex-col items-center justify-center ">
-          <h1 className="text-center lg:text-3xl">Hours of Operation:</h1>
+          <h2 className="text-center lg:text-3xl">Hours of Operation:</h2>
           <ul className="text-center lg:text-2xl">
             <li>Monday - Saturday: 11am - 8pm</li>
             <li>Sunday: 12pm - 6pm</li>
