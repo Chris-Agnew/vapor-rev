@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="absolute top-0 z-10 items-center text-white md:flex md:flex-col md:justify-center md:mx-auto "></div>
         <div>
           <img
-            src="https://www.chrisagnew.codes/dark-final.webp"
+            src="../images/vapor_rev_store_image.jpg"
             alt="Vapor Rev Shop photo"
             className="w-screen h-96 md:h-full"
           />
