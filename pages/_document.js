@@ -24,6 +24,7 @@ export default class MyDocument extends Document {
           `,
             }}
           />
+          <meta http-equiv="content-language" content="en-us"></meta>
         </Head>
         <body>
           <Main />
