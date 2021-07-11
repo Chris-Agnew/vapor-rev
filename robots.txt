@@ -1,4 +1,7 @@
 User-agent: *
-Allow: /*
+Disallow: 
 
-Disallow: /api/*
+User-agent: *
+Allow: 
+
+Sitemap: https://www.vaporrevshop.com/sitemap.xml
