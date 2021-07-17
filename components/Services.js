@@ -31,12 +31,7 @@ const Services = () => {
               vaper or just starting out, we have just what you are looking for!
             </div>
 
-            <div className="mt-5">
-              Founded in 2014 by Matt Cika, Vapor Rev has come a long way from
-              its beginnings in Downtown Willoughby. When Matt first started
-              out, his passion for providing the best vape products drove him to
-              found Vapor Rev so that Vapor Rev can offer you the best.
-            </div>
+           
 
             <div className="mt-5">
               We now serve customers all over the Willoughby/Mentor/Eastlake and
