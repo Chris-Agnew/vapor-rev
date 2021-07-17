@@ -30,9 +30,6 @@ const Services = () => {
               every bit of knowledge we have to offer. Whether you are a veteran
               vaper or just starting out, we have just what you are looking for!
             </div>
-
-           
-
             <div className="mt-5">
               We now serve customers all over the Willoughby/Mentor/Eastlake and
               surrounding area. We hope you enjoy our products as much as we
@@ -49,7 +46,16 @@ const Services = () => {
           with the latest and greatest products available. Our standard for only
           the highest quality is a never-ending process that we take pride in.
           Your journey for the perfect vape ends here!
-        </p>
+         </p>
+         <div className="flex items-center justify-center">
+         <button
+              type="button"
+              className="w-1/2 p-3 mt-2 text-sm text-gray-900 rounded-lg bg-light-blue hover:text-gray-200 hover:bg-dark-blue sm:text-base"
+            >
+              <a href="/reviews">Click here to see our reviews</a>
+            </button>
+         </div>
+         
       </div>
     </div>
   );
