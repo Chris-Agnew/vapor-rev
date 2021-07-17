@@ -1,13 +1,13 @@
 const data = [
   {
-    name: "Melisa",
+    name: "Melissa",
     message:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem a nihil praesentium labore odit excepturi.",
     starRating: 5,
     id: "1",
   },
   {
-    name: "Bre",
+    name: "Bree",
     message:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem a nihil praesentium labore odit excepturi.",
     starRating: 5,
