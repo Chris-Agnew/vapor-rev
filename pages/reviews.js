@@ -1,4 +1,7 @@
-import Review from "../components/Review";
+// import Review from "../components/Review";
+import dynamic from 'next/dynamic'
+
+const Review = dynamic(() => import('../components/Review'))
 
 const reviews = () => {
   //   console.log(data);
