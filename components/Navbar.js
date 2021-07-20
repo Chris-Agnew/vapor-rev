@@ -42,22 +42,22 @@ const Navbar = () => {
 
       <div className="items-center hidden md:justify-center text-light-blue md:flex lg:justify-start md:w-1/3">
         <Link href="#services">
-          <a className="m-3 border-dark-blue hover:border-dark-blue hover:border-b-2">
+          <a className="m-3 border-dark-blue hover:border-light-blue hover:border-b-2">
             Services
           </a>
         </Link>
         <Link href="#about">
-          <a className="m-3 border-dark-blue hover:border-dark-blue hover:border-b-2">
+          <a className="m-3 border-dark-blue hover:border-light-blue hover:border-b-2">
             About Us
           </a>
         </Link>
         <Link href="#contact">
-          <a className="m-3 border-dark-blue hover:border-dark-blue hover:border-b-2">
+          <a className="m-3 border-dark-blue hover:border-light-blue hover:border-b-2">
             Contact
           </a>
         </Link>
         {/* <Link href="/reviews">
-          <a className="m-3 border-dark-blue hover:border-dark-blue hover:border-b-2">
+          <a className="m-3 border-dark-blue hover:border-light-blue hover:border-b-2">
             Reviews
           </a>
         </Link> */}
