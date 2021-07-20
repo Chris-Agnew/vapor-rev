@@ -8,8 +8,6 @@
 
 > Website built using Next.js and Tailwind CSS. Waiting on access to Google My Business API to add a reviews page
 
-### 🏠 [Homepage](https://vaporrevshop.com)
-
 ### ✨ [Demo](https://vaporrevshop.com)
 
 ## Install
