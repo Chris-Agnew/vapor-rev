@@ -12,6 +12,7 @@
 # next.js
 /.next/
 /out/
+/lib/ga/gta.js
 
 # production
 /build
