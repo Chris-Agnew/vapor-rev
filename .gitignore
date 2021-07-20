@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/lib/
 
 
 # testing
@@ -13,7 +13,7 @@
 # next.js
 /.next/
 /out/
-/lib/ga/gta.js
+
 
 # production
 /build
