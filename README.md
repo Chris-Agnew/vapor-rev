@@ -1,3 +1,34 @@
-<h2>Vapor Rev site created with Next.js and Tailwind CSS. I used Next.js so when it becomes an E-Commerce site, it will be much easier than starting from scratch. I am in process of adding Google My Business API but needs manual review from Google so I put dummy data in now but will import 150 reviews when I get access to GMB API. Will update in next few days.</h2>
+<h1 align="center">Welcome to Vapor Rev 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://twitter.com/chrisagnewdev" target="_blank">
+    <img alt="Twitter: chrisagnewdev" src="https://img.shields.io/twitter/follow/chrisagnewdev.svg?style=social" />
+  </a>
+</p>
 
-<h3>You can visit the site <a href='https://vaporrevshop.com'>here</a></h3>
+> Website built using Next.js and Tailwind CSS. Waiting on access to Google My Business API to add a reviews page
+
+### 🏠 [Homepage](https://vaporrevshop.com)
+
+### ✨ [Demo](https://vaporrevshop.com)
+
+## Install
+
+```sh
+yarn install
+```
+
+## Usage
+
+```sh
+yarn run start
+```
+
+## Author
+
+👤 **Chris Agnew**
+
+- Website: https://chrisagnew.codes
+- Twitter: [@chrisagnewdev](https://twitter.com/chrisagnewdev)
+- Github: [@chris-agnew](https://github.com/chris-agnew)
+- LinkedIn: [@chris-agnew12](https://linkedin.com/in/chris-agnew12)
