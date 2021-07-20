@@ -56,11 +56,11 @@ const Navbar = () => {
             Contact
           </a>
         </Link>
-        <Link href="/reviews">
+        {/* <Link href="/reviews">
           <a className="m-3 border-dark-blue hover:border-dark-blue hover:border-b-2">
             Reviews
           </a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
