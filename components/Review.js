@@ -1,6 +1,9 @@
-import reviews from '../reviewInfo'
+
 
 const Review = () => {
+	useEffect(() => {
+		fetch(`https://mybusiness.googleapis.com/v4/accounts/${accountId}/locations/${locationId}/reviews`)
+	}, [input])
 	return (
 		reviews.map((review) => 
 	<div key={review.id} className="flex flex-col items-center justify-center w-3/4 p-2 m-2 bg-gray-200 border-gray-300 rounded-md md:w-1/3 ">
