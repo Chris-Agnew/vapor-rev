@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className="absolute z-50 flex flex-col items-center justify-center w-3/4 h-full p-6 top-10 left-10 md:left-32 md:p-3 ">
           <h1 className="z-10 mt-5 mb-4 text-xl text-center text-gray-300 md:text-3xl">
-            Vapor Rev is a vape shop in Willoughby.
+            VAPOR REV is a vape shop in Willoughby.
           </h1>
           <p className="z-10 text-sm text-center text-gray-200 md:text-2xl md:m-5">
             We are open and have returned to our normal scheduled store hours.

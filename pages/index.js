@@ -13,8 +13,8 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="Vapor Rev is a vape shop in Willougby Ohio. Vapor Rev is a one stop shop for everything vape related. Stop in today!"
-          keywords="Vape,shop,willoughby, ohio,vapor,rev"
+          content="VAPOR REV is a vape shop in Willougby Ohio. VAPOR REV is a one stop shop for everything vape related. Stop in today!"
+          keywords="Vape,shop,willoughby, ohio,vapor,rev,mentor,eastlake"
         />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         {/* Global Site Tag (gtag.js) - Google Analytics */}
@@ -33,7 +33,7 @@ export default function Home() {
             `,
           }}
         />
-        <title>Vapor Rev | Vape shop in Willoughby, Ohio</title>
+        <title>VAPOR REV | Vape shop in Willoughby, Ohio</title>
       </Head>
       <div className="w-full h-full font-nunito">
         <Navbar />

@@ -24,7 +24,7 @@ const Footer = () => {
         </h3>
       </div>
       <div className="flex flex-col items-center justify-center w-3/5 p-5 text-gray-200 bg-black md:w-1/2 ">
-        <h2 className="text-center text-md">Vapor Rev Inc &copy; 2021</h2>
+        <h2 className="text-center text-md">VAPOR REV Inc &copy; 2021</h2>
         <h2 className="text-xs text-center">Vape shop in Willoughby, Ohio</h2>
       </div>
     </div>
