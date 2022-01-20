@@ -1,7 +1,7 @@
 const Services = () => {
   return (
     <div id="services" className="flex flex-col  md:flex-row ">
-      <div className="flex flex-col items-center justify-center p-5 py-28 text-gray-200 bg-black md:p-10 md:w-1/3 h-[60vh] ">
+      <div className="flex flex-col items-center justify-center p-5 py-28 text-gray-200 bg-black md:p-10 md:w-1/3 md:h-[60vh] xl:h-[40vh] ">
         <div className="flex flex-col items-center justify-center">
           <h2 className="mb-5 text-2xl">Services:</h2>
           <ul className="text-sm md:text-lg list-disc ">
@@ -16,10 +16,10 @@ const Services = () => {
       </div>
       <div
         id="about"
-        className="flex flex-col justify-center pt-10 bg-gray-200 md:w-1/3 "
+        className="flex flex-col  md:h-[60vh] xl:h-[40vh] justify-center pt-10 bg-gray-200 md:w-1/3 "
       >
         <h2 className="text-2xl text-center "> About VAPOR REV</h2>
-        <div className="p-5 text-sm md:text-xs ">
+        <div className="p-5 text-sm md:text-lg ">
           <div className="p-7">
             <div>
               Welcome to VAPOR REV, your one stop shop for all things vaping.
@@ -39,7 +39,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center p-2 text-gray-200 bg-black md:w-1/3">
+      <div className="flex flex-col justify-center p-2 md:h-[60vh] xl:h-[40vh] text-gray-200 bg-black md:w-1/3">
         <h2 className="p-1 mt-2 text-2xl text-center lg:mt-0">Our Vision</h2>
         <p className="p-10 text-sm lg:m-0">
           We are continuously evolving with the market to provide our customers
