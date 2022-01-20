@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <>
-      <div className="relative items-center justify-center w-screen h-full text-center md:w-full md:h-1/2 ">
+      <div className="relative items-center justify-center w-screen h-[60vh]text-center md:w-full  ">
         <div className="flex items-center justify-center w-full font-bold ">
           <div className="flex items-center justify-center w-full bg-black">
             <p className=" p-2 text-sm bg-gray-200 border-8 border-black">
@@ -17,7 +17,7 @@ const Hero = () => {
             <source src="/images/vape-background.mp4" type="video/mp4" />
           </video>
         </div>
-        <div className="absolute z-50 flex flex-col items-center justify-center w-3/4 h-full p-6 top-10 left-10 md:left-32 md:p-3 ">
+        <div className="absolute z-50 flex flex-col items-center justify-center w-3/4 h-full p-6 top-16 left-10 md:left-32 md:p-3 ">
           <h1 className="z-10 mt-5 mb-4 text-xl text-center text-gray-300 md:text-3xl">
             VAPOR REV a vape shop in Willoughby.
           </h1>
