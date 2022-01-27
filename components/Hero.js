@@ -11,15 +11,14 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute top-0 z-10 items-center text-white md:flex md:flex-col md:justify-center md:mx-auto h-full"></div>
         <div>
           <video autoPlay loop muted className="h-full w-full">
             <source src="/images/vape-background.mp4" type="video/mp4" />
           </video>
         </div>
-        <div className="absolute z-50 flex flex-col items-center justify-center w-3/4 h-full p-6 top-16 left-10 md:left-32 md:p-3 ">
+        <div className="absolute z-50 flex flex-col items-center justify-center w-3/4 h-full p-6 top-16 md:top-0 left-32 md:left-56 md:p-3 ">
           <h1 className="z-10 mt-5 mb-4 text-xl text-center text-gray-300 md:text-3xl">
-            VAPOR REV a vape shop in Willoughby.
+            VAPOR REV is a vape shop in Willoughby.
           </h1>
           <p className="z-10  text-xs text-center text-gray-200 md:text-2xl md:m-5">
             We are open and have returned to our normal scheduled store hours.
