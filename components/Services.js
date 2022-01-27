@@ -41,7 +41,7 @@ const Services = () => {
       </div>
       <div className="flex flex-col justify-center p-2 md:h-[60vh] xl:h-[40vh] text-gray-200 bg-black md:w-1/3">
         <h2 className="p-1 mt-2 text-2xl text-center lg:mt-0">Our Vision</h2>
-        <p className="p-10 text-sm lg:m-0">
+        <p className="p-10 text-sm md:text-lg lg:m-0">
           We are continuously evolving with the market to provide our customers
           with the latest and greatest products available. Our standard for only
           the highest quality is a never-ending process that we take pride in.
