@@ -14,7 +14,7 @@ const Navbar = () => {
             />
           </a>
         </Link>
-        <div className="m-4 text-xs text-center text-gray-200 w-30">
+        <div className="m-4 text-xs text-center text-gray-200 w-30 font-poppins">
           <p>38669 MENTOR AVE UNIT B. WILLOUGHBY, OH</p>
         </div>
       </div>
