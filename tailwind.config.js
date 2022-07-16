@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        nunito: ["Nunito"],
+        raleway: ["Raleway", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       colors: {
         "light-blue": "#0A9DFF",
@@ -12,6 +13,7 @@ module.exports = {
         "rose-red": "#C2095A",
         mandarin: "EF8354",
         "dark-red": "8D0801",
+        "vapor-rev ": "#4C83C4",
       },
     },
   },
