@@ -14,12 +14,12 @@ const Cta = ({ text, icon, image, textHover, href }) => {
       />
 
       <div className=" absolute  xl:top-[60%] top-[45%] my-3 ">
-        <p className="text-2xl lg:text-4xl font-bold text-gray-200 flex text-center justify-center items-center uppercase font-poppins ">
+        <p className="text-2xl lg:text-4xl font-semibold text-gray-200 flex text-center justify-center items-center uppercase font-poppins ">
           {text}
           {icon}
         </p>
         <div className="transition-all transform translate-y-8 opacity-0  group-hover:opacity-100 group-hover:translate-y-0 duration-500 flex justify-center">
-          <p className="text-sm w-4/5 md:text-xl text-center font-raleway text-gray-200 m-3 ">
+          <p className="text-sm w-4/5 md:text-md xl:text-lg text-center font-raleway text-gray-200 m-3 ">
             {textHover}
           </p>
         </div>
