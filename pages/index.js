@@ -5,6 +5,7 @@ import Services from "../components/Services";
 import Info from "../components/Info";
 import Footer from "../components/Footer";
 import { GA_TRACKING_ID } from "../lib/ga/gtag";
+import AnimateInView from "../components/AnimateInView";
 
 export default function Home() {
   return (
@@ -35,12 +36,11 @@ export default function Home() {
         />
         <title>VAPOR REV | Vape shop in Willoughby, Ohio</title>
       </Head>
-      <div className="w-full h-full font-nunito">
+      <div className="w-full h-full bg-black">
         <Navbar />
         <Hero />
-        <Services />
-        <Info />
-        <Footer />
+        <AnimateInView content={<Services />} />
+        <AnimateInView content={<Info />} />
 
         <script
           id="AgeVerifyScript"
