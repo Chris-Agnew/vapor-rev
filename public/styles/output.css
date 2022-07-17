@@ -1102,6 +1102,10 @@ video {
     flex-direction: row;
   }
 
+  .md\:p-2 {
+    padding: 0.5rem;
+  }
+
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
