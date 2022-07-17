@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to Vapor Rev 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/chrisagnewdev" target="_blank">
     <img alt="Twitter: chrisagnewdev" src="https://img.shields.io/twitter/follow/chrisagnewdev.svg?style=social" />
   </a>
