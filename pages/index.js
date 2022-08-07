@@ -1,9 +1,7 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Info from "../components/Info";
-import Footer from "../components/Footer";
 import { GA_TRACKING_ID } from "../lib/ga/gtag";
 import AnimateInView from "../components/AnimateInView";
 
@@ -37,7 +35,6 @@ export default function Home() {
         <title>VAPOR REV | Vape shop in Willoughby, Ohio</title>
       </Head>
       <div className="w-full h-full bg-black">
-        <Navbar />
         <Hero />
         <AnimateInView content={<Services />} />
         <AnimateInView content={<Info />} />

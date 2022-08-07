@@ -13,7 +13,7 @@ const Cta = ({ text, icon, image, textHover, href }) => {
         height={700}
       />
 
-      <div className=" absolute  xl:top-[60%] top-[45%] my-3 ">
+      <section className=" absolute  xl:top-[60%] top-[45%] my-3 ">
         <p className="text-2xl lg:text-4xl font-semibold text-gray-200 flex text-center justify-center items-center uppercase font-poppins ">
           {text}
           {icon}
@@ -23,7 +23,7 @@ const Cta = ({ text, icon, image, textHover, href }) => {
             {textHover}
           </p>
         </div>
-      </div>
+      </section>
     </a>
   );
 };
