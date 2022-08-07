@@ -9,13 +9,6 @@ import { NextSeo } from "next-seo";
 export default function Home() {
   return (
     <>
-      <Head>
-        {/* Global Site Tag (gtag.js) - Google Analytics */}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-        />
-      </Head>
       <NextSeo
         title="Vapor Rev| Vape Shop in Willoughby, Ohio"
         description="Vapor Rev is a vape shop in Willoughby, Ohio. We carry a wide variety of vape products and accessories. We also offer a wide variety of e-juice flavors."
