@@ -8,7 +8,6 @@ const Cta = ({ text, icon, image, textHover, href }) => {
         className="absolute transition-opacity opacity-80 group-hover:opacity-50 object-center object-cover duration-500 "
         src={image}
         alt="CTA Image"
-        layout="intrinsic"
         width={550}
         height={700}
       />
