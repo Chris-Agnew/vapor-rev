@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <>
-      <div className="relative  w-screen text-center md:w-full  ">
+      <section className="relative  w-screen text-center md:w-full  ">
         <div className="flex items-center justify-center w-full bg-black">
           <p className=" p-2 text-sm bg-gray-200 border-8 border-black font-poppins font-semibold">
             WARNING: This product contains nicotine. Nicotine is an addictive
@@ -48,7 +48,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

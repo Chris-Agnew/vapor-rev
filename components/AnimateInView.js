@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const AnimateInView = ({ content, className }) => {
   return (
-    <motion.div
+    <motion.section
       className={className}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -15,7 +15,7 @@ const AnimateInView = ({ content, className }) => {
       }}
     >
       {content}
-    </motion.div>
+    </motion.section>
   );
 };
 
