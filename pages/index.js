@@ -27,7 +27,7 @@ export default function Home() {
             "Vapor Rev is a vape shop in Willoughby, Ohio. We carry a wide variety of vape products and accessories. We also offer a wide variety of e-juice flavors.",
           images: [
             {
-              url: "/images/vapor-rv.jpeg",
+              url: "/images/vapor-rev.jpeg",
               width: 800,
               height: 600,
               alt: "Vapor Rev Logo",
