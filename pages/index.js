@@ -4,36 +4,44 @@ import Services from "../components/Services";
 import Info from "../components/Info";
 import { GA_TRACKING_ID } from "../lib/ga/gtag";
 import AnimateInView from "../components/AnimateInView";
+import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta
-          name="description"
-          content="VAPOR REV is a vape shop in Willougby Ohio. VAPOR REV is a one stop shop for everything vape related. Stop in today!"
-          keywords="Vape,shop,willoughby, ohio,vapor,rev,mentor,eastlake"
-        />
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
         />
-
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', ${GA_TRACKING_ID}, { page_path: window.location.pathname });
-            `,
-          }}
-        />
-        <title>VAPOR REV | Vape shop in Willoughby, Ohio</title>
       </Head>
+      <NextSeo
+        title="Vapor Rev| Vape Shop in Willoughby, Ohio"
+        description="Vapor Rev is a vape shop in Willoughby, Ohio. We carry a wide variety of vape products and accessories. We also offer a wide variety of e-juice flavors."
+        canonical="https://www.vaporrevshop.com/"
+        openGraph={{
+          url: "https://www.vaporrevshop.com/",
+          title: "Vaor Rev | Vape Shop in Willoughby, Ohio",
+          description:
+            "Vapor Rev is a vape shop in Willoughby, Ohio. We carry a wide variety of vape products and accessories. We also offer a wide variety of e-juice flavors.",
+          images: [
+            {
+              url: "/images/vapor-rv.jpeg",
+              width: 800,
+              height: 600,
+              alt: "Vapor Rev Logo",
+              type: "image/jpeg",
+            },
+          ],
+          site_name: "VAPOR REV INC",
+        }}
+        twitter={{
+          handle: "@handle",
+          site: "@site",
+          cardType: "summary_large_image",
+        }}
+      />
       <div className="w-full h-full bg-black">
         <Hero />
         <AnimateInView content={<Services />} />
