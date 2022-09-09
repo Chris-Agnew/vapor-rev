@@ -1,11 +1,7 @@
 import CTA from "../components/CTA";
-import Vaper from "../public/images/vaper.jpg";
-import Square from "../public/images/square.jpg";
-import Store from "../public/images/store.jpg";
 import services from "../data/data";
 
 const Services = () => {
-  console.log(services);
   return (
     <section
       id="services"

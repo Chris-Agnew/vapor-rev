@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Vapor Rev| Vape Shop in Willoughby, Ohio"
+        title="Vapor Rev | Vape Shop in Willoughby, Ohio"
         description="Vapor Rev is a vape shop in Willoughby, Ohio. We carry a wide variety of vape products and accessories. We also offer a wide variety of e-juice flavors."
         canonical="https://www.vaporrevshop.com/"
         openGraph={{
