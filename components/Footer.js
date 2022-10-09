@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="flex items-center justify-center w-2/5 pl-5 bg-black md:w-1/2 text-light-blue ">
         <ul className="flex lg:text-4xl">
           <NavLink
-            href="https://www.facebook.com/vaporrev"
+            href="https://www.facebook.com/vaporrevohio"
             icon={<FaFacebookSquare />}
           />
           <NavLink
-            href="https://www.instagram.com/vaporrev/"
+            href="https://www.instagram.com/vapor_rev/"
             icon={<FaInstagramSquare />}
           />
           <NavLink

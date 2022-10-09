@@ -23,11 +23,11 @@ const Navbar = () => {
       <div className="flex items-center justify-center w-1/2 mt-5 mb-5 text-4xl text-center bg-black space-around text-light-blue">
         <ul className="flex ">
           <NavLink
-            href="https://www.facebook.com/vaporrev"
+            href="https://www.facebook.com/vaporrevohio"
             icon={<FaFacebookSquare />}
           />
           <NavLink
-            href="https://www.instagram.com/vaporrev/"
+            href="https://www.instagram.com/vapor_rev/"
             icon={<FaInstagramSquare />}
           />
           <NavLink
