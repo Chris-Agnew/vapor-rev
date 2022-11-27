@@ -1,9 +1,12 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { motion } from "framer-motion";
 
 const Cta = ({ text, icon, image, textHover, href }) => {
   return (
-    <a className="relative group flex justify-center" href={href}>
+    <div
+      className="relative group flex  justify-center items-center z-100 "
+      href={href}
+    >
       <Image
         className="absolute transition-opacity opacity-80 group-hover:opacity-50 object-center object-cover duration-500 "
         src={image}
@@ -12,7 +15,7 @@ const Cta = ({ text, icon, image, textHover, href }) => {
         height={700}
       />
 
-      <section className=" absolute  xl:top-[60%] top-[45%] my-3 ">
+      <div className=" absolute  flex flex-col justify-center items-center my-3 ">
         <p className="text-2xl lg:text-4xl font-semibold text-gray-200 flex text-center justify-center items-center uppercase font-poppins ">
           {text}
           {icon}
@@ -22,8 +25,8 @@ const Cta = ({ text, icon, image, textHover, href }) => {
             {textHover}
           </p>
         </div>
-      </section>
-    </a>
+      </div>
+    </div>
   );
 };
 

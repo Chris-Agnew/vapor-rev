@@ -7,13 +7,11 @@ const Navbar = () => {
     <nav className="flex flex-col items-center justify-center w-full h-full p-5 bg-black md:flex-row">
       <div className="flex flex-col items-center justify-center h-full md:w-1/3 ">
         <Link href="/">
-          <a>
-            <img
-              src="./images/vapor-rev-logo.webp"
-              alt="Vapor Rev Logo"
-              className="lg:w-72"
-            />
-          </a>
+          <img
+            src="./images/vapor-rev-logo.webp"
+            alt="Vapor Rev Logo"
+            className="lg:w-72"
+          />
         </Link>
         <div className="m-4 text-xs text-center text-gray-200 w-30 font-poppins">
           <p>38669 MENTOR AVE UNIT B. WILLOUGHBY, OH</p>

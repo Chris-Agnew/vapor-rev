@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="flex flex-col justify-center md:flex-row z-50 text-gray-200"
+      className="flex flex-col justify-center w z-50 md:flex-row text-gray-200  items-center w-full "
     >
       {services.map((service) => (
         <CTA
