@@ -15,7 +15,7 @@ const services = [
     id: 3,
     title: "Our Products",
     text: "We provide disposables, starter kits, coils, top shelf E-Liquid, pod systems and more...",
-    image: "/images/store.jpg",
+    image: "/images/store-4.jpg",
   },
 ];
 
