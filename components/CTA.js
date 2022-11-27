@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/legacy/Image";
 import { motion } from "framer-motion";
 
 const Cta = ({ text, icon, image, textHover, href }) => {
