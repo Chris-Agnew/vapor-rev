@@ -15,8 +15,8 @@ const Info = () => {
           <div className="flex flex-col items-center justify-center ">
             <h2 className="text-center lg:text-3xl">Hours of Operation:</h2>
             <ul className="text-center lg:text-2xl">
-              <li>Monday - Saturday: 11am - 8pm</li>
-              <li>Sunday: 12pm - 6pm</li>
+              <li>Monday - Saturday: 10am - 8pm</li>
+              <li>Sunday: 11am - 7pm</li>
             </ul>
           </div>
           <div className="flex flex-col items-center justify-center mt-10">
