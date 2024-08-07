@@ -14,25 +14,13 @@ export default function Home() {
         description="Vapor Rev is a vape shop in Willoughby, Ohio. We carry a wide variety of vape products and accessories. We also offer a wide variety of e-juice flavors."
         canonical="https://www.vaporrevshop.com/"
         openGraph={{
-          url: "https://www.vaporrevshop.com/",
-          title: "Vapor Rev | Vape Shop in Willoughby, Ohio",
+          title: "Open Graph Video Title",
           description:
-            "Vapor Rev is a vape shop in Willoughby, Ohio. We carry a wide variety of vape products and accessories. We also offer a wide variety of e-juice flavors.",
-          images: [
-            {
-              url: "/vapor-rev-og.mp4",
-              width: 800,
-              height: 600,
-              alt: "Vapor Rev Logo",
-              type: "video/mp4",
-            },
-          ],
+            "VAPOR REV is a vape shop in Willoughby, Ohio. We carry a wide variety of vape products and accessories. We also offer a wide variety of e-juice flavors.",
+          url: "https://www.vaporrevshop.com/",
+          video: "/vapor-rev-og.mp4",
+
           site_name: "VAPOR REV INC",
-        }}
-        twitter={{
-          handle: "@handle",
-          site: "@site",
-          cardType: "summary_large_image",
         }}
       />
       <div className="w-full h-full bg-black">
